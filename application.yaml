@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: fastapi-container
-        image: southamerica-west1-docker.pkg.dev/project-f37a4860-d512-457a-b73/devsecops-docker-repo/fast-api-microservice:latest
+        image: southamerica-west1-docker.pkg.dev/project-f37a4860-d512-457a-b73/devsecops-docker-repo/fast-api-microservice:413f6b5c
         ports:
           - containerPort: 8000
